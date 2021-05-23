@@ -10,10 +10,9 @@ html {
  
 body {
   background-color: #80746c;
-  width: 600px;
   border: 2px solid black;
   padding: 0px 20px 20px 20px;
-  max-width: 500px;
+  margin: 20px;
   margin: auto;
   
 }
