@@ -22,7 +22,7 @@ h1 {
 	text-align: center;
 	margin: 0;
 	padding: 20px 0;
-	color: #ff00ff;  /* Fuchsia */
+	color: ##ffffff;
 	text-shadow: 3px 3px 1px black;
 }
 
@@ -45,6 +45,12 @@ table {
 .question {
   background-color: #cccccc;
   color: black;
+  margin: 20px;
+  padding: 20px;
+}
+
+.redbar {
+  background-color: #8f001a;
   margin: 20px;
   padding: 20px;
 }
