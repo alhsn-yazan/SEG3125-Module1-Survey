@@ -22,7 +22,7 @@ h1 {
 	text-align: center;
 	margin: 0;
 	padding: 20px 0;
-	color: ##ffffff;
+	color: #f2f2f2;
 }
 
 img {
@@ -58,9 +58,9 @@ table {
 /* Defining styling for a specific element type - large block buttons */
 .block {
   display: block;
-  width: 100%;
+  width: 75%;
   border: none;
-  background-color: #ffff66;  /* yellow */
+  background-color: #8f001a;
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
@@ -70,7 +70,7 @@ table {
 /* Defining styling for a specific element with an id */
 #signature {
   text-align: right;
-  color: red;
+  color: ##8f001a;
   font-style: italic;
   font-size: 75%;
 }
