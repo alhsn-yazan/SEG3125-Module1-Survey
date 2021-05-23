@@ -39,10 +39,12 @@
 	<div class="question">
 		<h2> Section One </h2>
 		Were you able to find your uOttawa course using the search tool? Please select one option.<br>
-		<input type="checkbox" name="Answer" value="Yes">Yes.<br>
-		<input type="checkbox" name="Answer" value="No">No, due to an issue with the tool.<br>
-		<input type="checkbox" name="Answer" value="Unavailable">No, due to the course not being avaible in the selected semester.<br>
-		
+		  <input type="radio" id="yes" name="answerone" value="yes">
+ 		  <label for="yes">Yes.</label><br>
+  		  <input type="radio" id="no" name="answerone" value="no">
+ 		  <label for="no">No, due to an issue with the tool.</label><br>
+		  <input type="radio" id="notavail" name="answerone" value="notavail">
+		  <label for="notavail">No, due to the course not being avaible in the selected semester.</label>
 		<br>
 		
 		If you selected "No, due to an issue with the tool", what was the issue? Please describe it in the textbox below.<br>
@@ -57,6 +59,20 @@
 			<option value="Oranges">Oranges</option>
 			<option value="Bananas">Bananas</option>
 		</select>
+	</div>
+	
+	<div class="question">
+		<h2> Section One </h2>
+		Were you able to find your uOttawa course using the search tool? Please select one option.<br>
+		<input type="checkbox" name="Answer" value="Yes">Yes.<br>
+		<input type="checkbox" name="Answer" value="No">No, due to an issue with the tool.<br>
+		<input type="checkbox" name="Answer" value="Unavailable">No, due to the course not being avaible in the selected semester.<br>
+		
+		<br>
+		
+		If you selected "No, due to an issue with the tool", what was the issue? Please describe it in the textbox below.<br>
+		<textarea rows="5" cols="80"></textarea>
+		<br>
 	</div>
 	
 	<br>
