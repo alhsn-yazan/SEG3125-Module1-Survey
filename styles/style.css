@@ -23,7 +23,6 @@ h1 {
 	margin: 0;
 	padding: 20px 0;
 	color: ##ffffff;
-	text-shadow: 3px 3px 1px black;
 }
 
 img {
@@ -51,6 +50,7 @@ table {
 
 .redbar {
   background-color: #8f001a;
+  color: #ffffff;
   margin: 20px;
   padding: 20px;
 }
